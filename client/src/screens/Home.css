@@ -1,0 +1,15 @@
+.carosalcaptionstyle{
+     margin-left: 18%;
+    
+}
+.input-form-changer{
+    margin-left: 3%;
+}
+@media(max-width:900px){
+    .carosalcaptionstyle{
+        margin-left: 5%;
+    }
+    .input-form-changer{
+        margin-left: 5%;
+    }
+}

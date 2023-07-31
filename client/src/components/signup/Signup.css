@@ -1,0 +1,106 @@
+.signup_img img{
+    width: 100%;
+    opacity: 0.4;
+}
+.signup_img{
+    position: relative;
+}
+.signup_register{
+    font-size: 20px;
+    background-color: #8a6c6c;
+    color:black;
+    position: absolute;
+    top:15%;
+    left:35%;
+    border-radius: 10px;
+}
+ .main_register{
+    padding: 80px;
+    
+} 
+.already-acc{
+    margin-top:15px;
+}
+.field{
+    width:30rem;
+    border:none;
+    border-radius: 15px;
+    padding:5px;
+}
+.user_reg{
+    text-align: center;
+    align-items: center;
+}
+.btn12{
+    background-color: rgb(27, 27, 63);
+    color:white;
+    margin-top: 5px;
+    width:100%;
+    padding: 5px;
+}
+.btn11{
+    background-color: rgb(27, 27, 63);
+    color:white;
+    
+    padding: 5px 15px 5px 15px;
+}
+.icon_reg{
+    margin-top: 0;
+    padding: 35px 40px 25px 40px;
+    background-color: aliceblue;
+    border-radius: 140px;
+    border:2px solid black;
+    display: inline-block;;
+    align-items: center;
+    text-align: center;
+}
+.icon_reg span{
+    font-size: 16px;
+    font-weight: 800;
+}
+.fa-user{
+    font-size: 5rem;
+}
+@media(max-width:600px){
+    .signup_register{
+        font-size: 16px;
+        top:20%;
+        left:10%;
+        right:10%
+    }
+    .field{
+    
+        width:100%;
+    }
+    .main_register{
+        padding: 20px 40px 10px 40px ;
+    }
+    .signup_img img{
+        min-height: 60rem;
+    }
+    .icon_reg{
+        margin-top: 0;
+        padding: 25px 20px 20px 20px;
+        font-size: 16px;
+        
+    }
+    .icon_reg span{
+        font-size: 14px; 
+    }
+    .fa-user{
+        font-size: 3rem;
+    }
+    .btn11{
+        width: 100%;
+    }
+    .already-acc{
+        font-size: 90%;
+    }
+}
+
+.signup_container{
+    scroll-behavior: auto;
+}
+.fa-right-to-bracket{
+    font-size:100px ;
+}
